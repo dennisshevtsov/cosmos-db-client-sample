@@ -15,7 +15,7 @@ namespace CosmosDbClientSample.DocumentPersistence
   {
     private readonly JsonSerializerOptions _jsonSerializerOptions;
 
-    /// <summary>Initializes a new instance of the <see cref="DocumentSerializer"/> class.</summary>
+    /// <summary>Initializes a new instance of the <see cref="CosmosDbClientSample.DocumentPersistence.DocumentSerializer"/> class.</summary>
     /// <param name="jsonSerializerOptions">An object that provides options to be used with <see cref="System.Text.Json.JsonSerializer"/>.</param>
     public DocumentSerializer(JsonSerializerOptions jsonSerializerOptions)
       => _jsonSerializerOptions = jsonSerializerOptions ?? throw new ArgumentNullException(nameof(jsonSerializerOptions));

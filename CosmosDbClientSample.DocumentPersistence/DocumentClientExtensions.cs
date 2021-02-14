@@ -9,7 +9,7 @@ namespace CosmosDbClientSample.DocumentPersistence
   using System.Threading;
   using System.Threading.Tasks;
 
-  /// <summary>Extends the API of the <see cref="IDocumentClient"/>.</summary>
+  /// <summary>Extends the API of the <see cref="CosmosDbClientSample.DocumentPersistence.IDocumentClient"/>.</summary>
   public static class DocumentClientExtensions
   {
     /// <summary>Receives documents from their persistence.</summary>

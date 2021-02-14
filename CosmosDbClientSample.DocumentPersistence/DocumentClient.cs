@@ -24,10 +24,10 @@ namespace CosmosDbClientSample.DocumentPersistence
     private readonly RecyclableMemoryStreamManager _streamManager;
     private readonly IDocumentSerializer _serializer;
 
-    /// <summary>Initializes a new instance of the <see cref="DocumentClient"/> class.</summary>
+    /// <summary>Initializes a new instance of the <see cref="CosmosDbClientSample.DocumentPersistence.DocumentClient"/> class.</summary>
     /// <param name="requestOptions">An object that represents options of a request to Cosmos DB.</param>
     /// <param name="container">An object that provides operations for reading, replacing, or deleting a specific, existing container or item in a container by ID.</param>
-    /// <param name="streamManagerProvider">An object that provides a simple API to receive an instance of the <see cref="RecyclableMemoryStream"/> class.</param>
+    /// <param name="streamManagerProvider">An object that provides a simple API to receive an instance of the <see cref="Microsoft.IO.RecyclableMemoryStream"/> class.</param>
     /// <param name="serializer">An object that provides a simple API to serialize/deserialize objects.</param>
     public DocumentClient(
       IOptions<DocumentClientOptions> requestOptions,
