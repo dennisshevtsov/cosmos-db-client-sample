@@ -14,7 +14,6 @@ namespace CosmosDbClientSample.DocumentPersistence.Tests
 
   using CosmosDbClientSample.DocumentPersistence;
 
-  [Ignore]
   [TestClass]
   public sealed class DocumentClientTest
   {
